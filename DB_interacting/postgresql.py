@@ -1,7 +1,6 @@
 import psycopg2
 
 def create_table():
-    #Steps:
     #1. Connect to database
     connection = psycopg2.connect("dbname='store' user='postgres' password='postgres123' host='localhost' port='5432'")
     #2. Create a cursor object
