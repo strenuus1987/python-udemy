@@ -1,1 +1,7 @@
 DB_interacting/postgresql_credentials.txt
+
+desktop_database_app/*.db
+desktop_database_app/__pycache__
+desktop_database_app/build
+desktop_database_app/dist
+desktop_database_app/*.spec
