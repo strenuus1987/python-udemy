@@ -16,6 +16,12 @@ class Account:
         self.balance = self.balance + amount
 
 class Checking_Account(Account):
+    #doc string
+    """
+    This class generates checking account
+    """
+    type="checking" # class variable. Shared among all instances of the class
+
     def __init__(self, filepath, fee):
         Account.__init__(self, filepath)
         self.fee = fee
@@ -23,7 +29,18 @@ class Checking_Account(Account):
     def transfer(self, amount):
         self.balance = self.balance - amount - self.fee
 
+# inheritance text
 checking = Checking_Account("balance.txt", 3)
 checking.transfer(10)
 print(checking.balance)
 checking.commit_changes()
+
+# glosary
+acc1_checking = Checking_Account("acc1.txt", 1)
+print(acc1_checking.balance) #instance variable
+print(acc1_checking.type) # class variable
+print(acc1_checking.__doc__) # doc string
+
+acc2_checking = Checking_Account("acc2.txt", 1)
+print(acc2_checking.balance) #instance variable
+print(acc1_checking.type) # class variable
