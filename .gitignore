@@ -10,3 +10,4 @@ OOP/__pycache__
 
 OpenCV/*.jpg
 OpenCV/sample-images
+OpenCV/face_detector/*.jpg
