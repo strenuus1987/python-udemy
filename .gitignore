@@ -9,3 +9,4 @@ desktop_database_app/*.spec
 OOP/__pycache__
 
 OpenCV/*.jpg
+OpenCV/sample-images
