@@ -24,10 +24,10 @@ while True:
         continue
 
     delta_frame = cv2.absdiff(first_frame, gray) # find delta between first_frame (greyed blured) and greyed blured current frame image
-    thresh_frame = cv2.threshhold(delta_frame, 30, 255, cv2.THRESH_BINARY)[1] # if on delta_frame difference is greater than 30 then mark this pixel as white 255
+    thresh_frame = cv2.threshold(delta_frame, 30, 255, cv2.THRESH_BINARY)[1] # if on delta_frame difference is greater than 30 then mark this pixel as white 255
     thresh_frame = cv2.dilate(thresh_frame, None, iterations=2) # dilate (increase) white area
 
-    (_,cnts,_) = cv.findContours(thresh_frame.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE) # find conturs of the white areas on the frame
+    (_,cnts,_) = cv2.findContours(thresh_frame.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE) # find conturs of the white areas on the frame
 
     # filter out conturs where white areas are less than 10000
     for contour in cnts:
