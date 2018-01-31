@@ -1,0 +1,2114 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_06166577e28740b9ad896639075c59b2 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_06166577e28740b9ad896639075c59b2" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_06166577e28740b9ad896639075c59b2 = L.map(
+                                  'map_06166577e28740b9ad896639075c59b2',
+                                  {center: [38.862483,-100.404581],
+                                  zoom: 5,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_7d0b30f319eb4277be32cf2dfb2a589f = L.tileLayer(
+                'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_06166577e28740b9ad896639075c59b2);
+        
+    
+            var feature_group_1c4f68b671c34a4280eb10ebbd742953 = L.featureGroup(
+                ).addTo(map_06166577e28740b9ad896639075c59b2);
+        
+    
+            var circle_marker_37bc0b3f3cc648d3985176aac68c2fa2 = L.circleMarker(
+                [48.7767982,-121.810997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_1c23acb41e62401999f984aa44c8f3b4 = L.popup({maxWidth: '300'});
+
+            
+                var html_fc5b68e30933422cbf8a18078d8c53e6 = $('<div id="html_fc5b68e30933422cbf8a18078d8c53e6" style="width: 100.0%; height: 100.0%;">Name: Baker Location: US-Washington Status: Historical Type: Stratovolcanoes Elevation: 3285.0 m</div>')[0];
+                popup_1c23acb41e62401999f984aa44c8f3b4.setContent(html_fc5b68e30933422cbf8a18078d8c53e6);
+            
+
+            circle_marker_37bc0b3f3cc648d3985176aac68c2fa2.bindPopup(popup_1c23acb41e62401999f984aa44c8f3b4);
+
+            
+        
+    
+            var circle_marker_9d1174303bed4e1396adb39c656e5c63 = L.circleMarker(
+                [48.1118011,-121.1110001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_cfd58525f11346c48d24a4876666bdb8 = L.popup({maxWidth: '300'});
+
+            
+                var html_93420e88e16e4154b0edb4b3f5776ab6 = $('<div id="html_93420e88e16e4154b0edb4b3f5776ab6" style="width: 100.0%; height: 100.0%;">Name: Glacier Peak Location: US-Washington Status: Tephrochronology Type: Stratovolcano Elevation: 3213.0 m</div>')[0];
+                popup_cfd58525f11346c48d24a4876666bdb8.setContent(html_93420e88e16e4154b0edb4b3f5776ab6);
+            
+
+            circle_marker_9d1174303bed4e1396adb39c656e5c63.bindPopup(popup_cfd58525f11346c48d24a4876666bdb8);
+
+            
+        
+    
+            var circle_marker_2b2938f12e55470eabf53cdd4bcb3412 = L.circleMarker(
+                [46.8698006,-121.7509995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_c42b86285bd045a18f8b0a55bed6ede5 = L.popup({maxWidth: '300'});
+
+            
+                var html_afac46a1f5cf43b6a350053ad86cf0ee = $('<div id="html_afac46a1f5cf43b6a350053ad86cf0ee" style="width: 100.0%; height: 100.0%;">Name: Rainier Location: US-Washington Status: Dendrochronology Type: Stratovolcano Elevation: 4392.0 m</div>')[0];
+                popup_c42b86285bd045a18f8b0a55bed6ede5.setContent(html_afac46a1f5cf43b6a350053ad86cf0ee);
+            
+
+            circle_marker_2b2938f12e55470eabf53cdd4bcb3412.bindPopup(popup_c42b86285bd045a18f8b0a55bed6ede5);
+
+            
+        
+    
+            var circle_marker_97c1813552394b1b967685f9ae75633c = L.circleMarker(
+                [46.1997986,-122.1809998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_6fea71a539ea48f7aa4019358810b7f5 = L.popup({maxWidth: '300'});
+
+            
+                var html_0fd8e2ac1a974c8298077b863809d16d = $('<div id="html_0fd8e2ac1a974c8298077b863809d16d" style="width: 100.0%; height: 100.0%;">Name: St. Helens Location: US-Washington Status: Historical Type: Stratovolcano Elevation: 2549.0 m</div>')[0];
+                popup_6fea71a539ea48f7aa4019358810b7f5.setContent(html_0fd8e2ac1a974c8298077b863809d16d);
+            
+
+            circle_marker_97c1813552394b1b967685f9ae75633c.bindPopup(popup_6fea71a539ea48f7aa4019358810b7f5);
+
+            
+        
+    
+            var circle_marker_da85e44fc3a946bb9c173100330cd626 = L.circleMarker(
+                [46.20579910000001,-121.4909973],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_2e3f41a5b66b4f4d95891ca035af5178 = L.popup({maxWidth: '300'});
+
+            
+                var html_e26a624d90c24b0c88b10fbd100451bd = $('<div id="html_e26a624d90c24b0c88b10fbd100451bd" style="width: 100.0%; height: 100.0%;">Name: Adams Location: US-Washington Status: Tephrochronology Type: Stratovolcano Elevation: 3742.0 m</div>')[0];
+                popup_2e3f41a5b66b4f4d95891ca035af5178.setContent(html_e26a624d90c24b0c88b10fbd100451bd);
+            
+
+            circle_marker_da85e44fc3a946bb9c173100330cd626.bindPopup(popup_2e3f41a5b66b4f4d95891ca035af5178);
+
+            
+        
+    
+            var circle_marker_145b456170814a1c9cd4b85e67aa0cb4 = L.circleMarker(
+                [45.8797989,-122.0810013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_8edd6ed4477e4d39b7aba88b54be9d2d = L.popup({maxWidth: '300'});
+
+            
+                var html_680331be2fd74f029b2bc6f7689b3f37 = $('<div id="html_680331be2fd74f029b2bc6f7689b3f37" style="width: 100.0%; height: 100.0%;">Name: West Crater Location: US-Washington Status: Radiocarbon Type: Volcanic field Elevation: 1329.0 m</div>')[0];
+                popup_8edd6ed4477e4d39b7aba88b54be9d2d.setContent(html_680331be2fd74f029b2bc6f7689b3f37);
+            
+
+            circle_marker_145b456170814a1c9cd4b85e67aa0cb4.bindPopup(popup_8edd6ed4477e4d39b7aba88b54be9d2d);
+
+            
+        
+    
+            var circle_marker_ac24a4f1ce834df783463aaa25aca929 = L.circleMarker(
+                [45.929798100000006,-121.8209991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_adc4711efd204b508de77edc18ef798a = L.popup({maxWidth: '300'});
+
+            
+                var html_19ec96970476462e9bcc08f3f8ecb695 = $('<div id="html_19ec96970476462e9bcc08f3f8ecb695" style="width: 100.0%; height: 100.0%;">Name: Indian Heaven Location: US-Washington Status: Radiocarbon Type: Shield volcanoes Elevation: 1806.0 m</div>')[0];
+                popup_adc4711efd204b508de77edc18ef798a.setContent(html_19ec96970476462e9bcc08f3f8ecb695);
+            
+
+            circle_marker_ac24a4f1ce834df783463aaa25aca929.bindPopup(popup_adc4711efd204b508de77edc18ef798a);
+
+            
+        
+    
+            var circle_marker_834ec80dccea4183b2ca736d59e16e8f = L.circleMarker(
+                [45.3737984,-121.6910019],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_ccb6f3400f6b4d11824247e5b7372f0d = L.popup({maxWidth: '300'});
+
+            
+                var html_b25b4f62bae54c4ea14387d732259f3c = $('<div id="html_b25b4f62bae54c4ea14387d732259f3c" style="width: 100.0%; height: 100.0%;">Name: Hood Location: US-Oregon Status: Historical Type: Stratovolcano Elevation: 3426.0 m</div>')[0];
+                popup_ccb6f3400f6b4d11824247e5b7372f0d.setContent(html_b25b4f62bae54c4ea14387d732259f3c);
+            
+
+            circle_marker_834ec80dccea4183b2ca736d59e16e8f.bindPopup(popup_ccb6f3400f6b4d11824247e5b7372f0d);
+
+            
+        
+    
+            var circle_marker_6cd40bec0d084544845c18e084365c31 = L.circleMarker(
+                [44.691799200000005,-121.8010025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_f88546a5a501483b8c88107a7dbcd40c = L.popup({maxWidth: '300'});
+
+            
+                var html_6e35f62f1ba44db2bd4a964049a60a7a = $('<div id="html_6e35f62f1ba44db2bd4a964049a60a7a" style="width: 100.0%; height: 100.0%;">Name: Jefferson Location: US-Oregon Status: Varve Count Type: Stratovolcano Elevation: 3199.0 m</div>')[0];
+                popup_f88546a5a501483b8c88107a7dbcd40c.setContent(html_6e35f62f1ba44db2bd4a964049a60a7a);
+            
+
+            circle_marker_6cd40bec0d084544845c18e084365c31.bindPopup(popup_f88546a5a501483b8c88107a7dbcd40c);
+
+            
+        
+    
+            var circle_marker_368e2d122e574e2c9ce32c217ef773ed = L.circleMarker(
+                [44.4197998,-121.7710037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_b7c6620c34e447ec965fdfee03bded56 = L.popup({maxWidth: '300'});
+
+            
+                var html_696433bae6834dc4bf9bc8ab939c53f2 = $('<div id="html_696433bae6834dc4bf9bc8ab939c53f2" style="width: 100.0%; height: 100.0%;">Name: Blue Lake Crater Location: US-Oregon Status: Radiocarbon Type: Maar Elevation: 1230.0 m</div>')[0];
+                popup_b7c6620c34e447ec965fdfee03bded56.setContent(html_696433bae6834dc4bf9bc8ab939c53f2);
+            
+
+            circle_marker_368e2d122e574e2c9ce32c217ef773ed.bindPopup(popup_b7c6620c34e447ec965fdfee03bded56);
+
+            
+        
+    
+            var circle_marker_56e09c40f7594ec2b9a1b25e7c2247d3 = L.circleMarker(
+                [44.3797989,-121.9309998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_da78c0fa4dcf4d34b1b6e4ebd7315ae5 = L.popup({maxWidth: '300'});
+
+            
+                var html_8470c3d4ed3a49269baaf251c3ed9043 = $('<div id="html_8470c3d4ed3a49269baaf251c3ed9043" style="width: 100.0%; height: 100.0%;">Name: Sand Mountain Field Location: US-Oregon Status: Radiocarbon Type: Cinder cones Elevation: 1664.0 m</div>')[0];
+                popup_da78c0fa4dcf4d34b1b6e4ebd7315ae5.setContent(html_8470c3d4ed3a49269baaf251c3ed9043);
+            
+
+            circle_marker_56e09c40f7594ec2b9a1b25e7c2247d3.bindPopup(popup_da78c0fa4dcf4d34b1b6e4ebd7315ae5);
+
+            
+        
+    
+            var circle_marker_0e56204092174e2fa03226a50f8d9b5a = L.circleMarker(
+                [44.331798600000006,-121.8310013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_ec5afabb49644600995c952b8d5fd36d = L.popup({maxWidth: '300'});
+
+            
+                var html_c9d3bae330914d398f46f83003f9dcca = $('<div id="html_c9d3bae330914d398f46f83003f9dcca" style="width: 100.0%; height: 100.0%;">Name: Washington Location: US-Oregon Status: Radiocarbon Type: Shield volcano Elevation: 2376.0 m</div>')[0];
+                popup_ec5afabb49644600995c952b8d5fd36d.setContent(html_c9d3bae330914d398f46f83003f9dcca);
+            
+
+            circle_marker_0e56204092174e2fa03226a50f8d9b5a.bindPopup(popup_ec5afabb49644600995c952b8d5fd36d);
+
+            
+        
+    
+            var circle_marker_6163966effe94fa292cd58c0ffe8dc84 = L.circleMarker(
+                [44.2848015,-121.8410034],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_0c85829a472542aea0b8f85b19085eef = L.popup({maxWidth: '300'});
+
+            
+                var html_11ef508e7f954e7b815c0bf8c734eaeb = $('<div id="html_11ef508e7f954e7b815c0bf8c734eaeb" style="width: 100.0%; height: 100.0%;">Name: Belknap Location: US-Oregon Status: Radiocarbon Type: Shield volcanoes Elevation: 2095.0 m</div>')[0];
+                popup_0c85829a472542aea0b8f85b19085eef.setContent(html_11ef508e7f954e7b815c0bf8c734eaeb);
+            
+
+            circle_marker_6163966effe94fa292cd58c0ffe8dc84.bindPopup(popup_0c85829a472542aea0b8f85b19085eef);
+
+            
+        
+    
+            var circle_marker_c5725eab516c4633a8cc634ae8274823 = L.circleMarker(
+                [44.1697998,-121.7710037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_6ec7c687e21d4735a921de42eabba90e = L.popup({maxWidth: '300'});
+
+            
+                var html_d8d7d7c38e2346e692ce20378c683903 = $('<div id="html_d8d7d7c38e2346e692ce20378c683903" style="width: 100.0%; height: 100.0%;">Name: North Sister Field Location: US-Oregon Status: Radiocarbon Type: Complex volcano Elevation: 3074.0 m</div>')[0];
+                popup_6ec7c687e21d4735a921de42eabba90e.setContent(html_d8d7d7c38e2346e692ce20378c683903);
+            
+
+            circle_marker_c5725eab516c4633a8cc634ae8274823.bindPopup(popup_6ec7c687e21d4735a921de42eabba90e);
+
+            
+        
+    
+            var circle_marker_992f5be45a4c4844b1fbf83b648e1b0b = L.circleMarker(
+                [44.099800099999996,-121.7710037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_80109d51ccb24e649e7590085711aa91 = L.popup({maxWidth: '300'});
+
+            
+                var html_d3c4d8fb1a254f75aed558dbb155a15f = $('<div id="html_d3c4d8fb1a254f75aed558dbb155a15f" style="width: 100.0%; height: 100.0%;">Name: South Sister Location: US-Oregon Status: Radiocarbon Type: Complex volcano Elevation: 3157.0 m</div>')[0];
+                popup_80109d51ccb24e649e7590085711aa91.setContent(html_d3c4d8fb1a254f75aed558dbb155a15f);
+            
+
+            circle_marker_992f5be45a4c4844b1fbf83b648e1b0b.bindPopup(popup_80109d51ccb24e649e7590085711aa91);
+
+            
+        
+    
+            var circle_marker_0cb2c33004e74275bdb58d5e063a9460 = L.circleMarker(
+                [43.978801700000005,-121.6809998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_62543cacb16c4df38c22712a3667aa30 = L.popup({maxWidth: '300'});
+
+            
+                var html_b179e09e2d654761a5f56befeaaa76db = $('<div id="html_b179e09e2d654761a5f56befeaaa76db" style="width: 100.0%; height: 100.0%;">Name: Bachelor Location: US-Oregon Status: Tephrochronology Type: Stratovolcano Elevation: 2763.0 m</div>')[0];
+                popup_62543cacb16c4df38c22712a3667aa30.setContent(html_b179e09e2d654761a5f56befeaaa76db);
+            
+
+            circle_marker_0cb2c33004e74275bdb58d5e063a9460.bindPopup(popup_62543cacb16c4df38c22712a3667aa30);
+
+            
+        
+    
+            var circle_marker_53d87dc517cb41259482de5a346044a8 = L.circleMarker(
+                [43.7218018,-121.2210007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_c7b9ae1ddd6a46509b818fbdd7cf11de = L.popup({maxWidth: '300'});
+
+            
+                var html_57816669830943a38ca36a8c009e6090 = $('<div id="html_57816669830943a38ca36a8c009e6090" style="width: 100.0%; height: 100.0%;">Name: Newberry Volcano Location: US-Oregon Status: Radiocarbon Type: Shield volcano Elevation: 2434.0 m</div>')[0];
+                popup_c7b9ae1ddd6a46509b818fbdd7cf11de.setContent(html_57816669830943a38ca36a8c009e6090);
+            
+
+            circle_marker_53d87dc517cb41259482de5a346044a8.bindPopup(popup_c7b9ae1ddd6a46509b818fbdd7cf11de);
+
+            
+        
+    
+            var circle_marker_0bf0cad36a7a48bba1c73f246dbcb91f = L.circleMarker(
+                [43.569801299999995,-121.8209991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_c6b3ad798b1644de917376782265bafd = L.popup({maxWidth: '300'});
+
+            
+                var html_a1a47f2fe16f4cf689c2b2b3bbfd6185 = $('<div id="html_a1a47f2fe16f4cf689c2b2b3bbfd6185" style="width: 100.0%; height: 100.0%;">Name: Davis Lake Location: US-Oregon Status: Radiocarbon Type: Volcanic field Elevation: 2163.0 m</div>')[0];
+                popup_c6b3ad798b1644de917376782265bafd.setContent(html_a1a47f2fe16f4cf689c2b2b3bbfd6185);
+            
+
+            circle_marker_0bf0cad36a7a48bba1c73f246dbcb91f.bindPopup(popup_c6b3ad798b1644de917376782265bafd);
+
+            
+        
+    
+            var circle_marker_3d0a7b59bbf141d99860c28857a8dd5f = L.circleMarker(
+                [43.5119019,-120.8610001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_541f6825a2e54183b8ea5fc057d4d7fd = L.popup({maxWidth: '300'});
+
+            
+                var html_378458a5807c45ebb27e3a356f2edd7e = $('<div id="html_378458a5807c45ebb27e3a356f2edd7e" style="width: 100.0%; height: 100.0%;">Name: Devils Garden Location: US-Oregon Status: Holocene? Type: Volcanic field Elevation: 1698.0 m</div>')[0];
+                popup_541f6825a2e54183b8ea5fc057d4d7fd.setContent(html_378458a5807c45ebb27e3a356f2edd7e);
+            
+
+            circle_marker_3d0a7b59bbf141d99860c28857a8dd5f.bindPopup(popup_541f6825a2e54183b8ea5fc057d4d7fd);
+
+            
+        
+    
+            var circle_marker_8a22035f746348aa854099b7244327d6 = L.circleMarker(
+                [43.240798999999996,-122.10099790000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_9c9a928e03a84ce7bb403f48ed33dbdf = L.popup({maxWidth: '300'});
+
+            
+                var html_17d5154e1a664ed0913fef191f25e7b4 = $('<div id="html_17d5154e1a664ed0913fef191f25e7b4" style="width: 100.0%; height: 100.0%;">Name: Cinnamon Butte Location: US-Oregon Status: Holocene? Type: Cinder cones Elevation: 1956.0 m</div>')[0];
+                popup_9c9a928e03a84ce7bb403f48ed33dbdf.setContent(html_17d5154e1a664ed0913fef191f25e7b4);
+            
+
+            circle_marker_8a22035f746348aa854099b7244327d6.bindPopup(popup_9c9a928e03a84ce7bb403f48ed33dbdf);
+
+            
+        
+    
+            var circle_marker_bfa13319b5f84d63b26cbe2390e06398 = L.circleMarker(
+                [43.471900899999994,-120.7509995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_41c9ebb8c92049e99561e07275aee0e4 = L.popup({maxWidth: '300'});
+
+            
+                var html_80bc9ef745b54846af4e35b97376cc15 = $('<div id="html_80bc9ef745b54846af4e35b97376cc15" style="width: 100.0%; height: 100.0%;">Name: Squaw Ridge Lava Field Location: US-Oregon Status: Holocene? Type: Volcanic field Elevation: 1711.0 m</div>')[0];
+                popup_41c9ebb8c92049e99561e07275aee0e4.setContent(html_80bc9ef745b54846af4e35b97376cc15);
+            
+
+            circle_marker_bfa13319b5f84d63b26cbe2390e06398.bindPopup(popup_41c9ebb8c92049e99561e07275aee0e4);
+
+            
+        
+    
+            var circle_marker_0477dffe1d2a4f14ad9b85f8f74a9c55 = L.circleMarker(
+                [43.3609009,-120.6610031],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_7b804a41578146f0bda4e501bb05da2e = L.popup({maxWidth: '300'});
+
+            
+                var html_c90e6d2340e74d80a8491c549c4728bc = $('<div id="html_c90e6d2340e74d80a8491c549c4728bc" style="width: 100.0%; height: 100.0%;">Name: Four Craters Lava Field Location: US-Oregon Status: Holocene? Type: Volcanic field Elevation: 1501.0 m</div>')[0];
+                popup_7b804a41578146f0bda4e501bb05da2e.setContent(html_c90e6d2340e74d80a8491c549c4728bc);
+            
+
+            circle_marker_0477dffe1d2a4f14ad9b85f8f74a9c55.bindPopup(popup_7b804a41578146f0bda4e501bb05da2e);
+
+            
+        
+    
+            var circle_marker_86f7e0cefff244828a464fea2efcb85b = L.circleMarker(
+                [42.9299011,-122.1210022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_e9c69bd101024fba9c18bf9e1f8075ef = L.popup({maxWidth: '300'});
+
+            
+                var html_a305df1e896f4449909e1958579a6b9b = $('<div id="html_a305df1e896f4449909e1958579a6b9b" style="width: 100.0%; height: 100.0%;">Name: Crater Lake Location: US-Oregon Status: Radiocarbon Type: Caldera Elevation: 2487.0 m</div>')[0];
+                popup_e9c69bd101024fba9c18bf9e1f8075ef.setContent(html_a305df1e896f4449909e1958579a6b9b);
+            
+
+            circle_marker_86f7e0cefff244828a464fea2efcb85b.bindPopup(popup_e9c69bd101024fba9c18bf9e1f8075ef);
+
+            
+        
+    
+            var circle_marker_a3b7bf911b7841f28e81cc96d97bdcb5 = L.circleMarker(
+                [44.4299011,-110.6709976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_8526d4db8b64436daf9e9f531d886197 = L.popup({maxWidth: '300'});
+
+            
+                var html_6184731d041d445986bd811e13cdc8cc = $('<div id="html_6184731d041d445986bd811e13cdc8cc" style="width: 100.0%; height: 100.0%;">Name: Yellowstone Location: US-Wyoming Status: Tephrochronology Type: Calderas Elevation: 2805.0 m</div>')[0];
+                popup_8526d4db8b64436daf9e9f531d886197.setContent(html_6184731d041d445986bd811e13cdc8cc);
+            
+
+            circle_marker_a3b7bf911b7841f28e81cc96d97bdcb5.bindPopup(popup_8526d4db8b64436daf9e9f531d886197);
+
+            
+        
+    
+            var circle_marker_68964cf4318a41c99e8081fbfaeccce1 = L.circleMarker(
+                [43.0998993,-118.7509995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_2c52551efb2f4f508eb967e726405c13 = L.popup({maxWidth: '300'});
+
+            
+                var html_a88ccc7be3fc4270ae96b58c80841560 = $('<div id="html_a88ccc7be3fc4270ae96b58c80841560" style="width: 100.0%; height: 100.0%;">Name: Diamond Craters Location: US-Oregon Status: Holocene? Type: Volcanic field Elevation: 1435.0 m</div>')[0];
+                popup_2c52551efb2f4f508eb967e726405c13.setContent(html_a88ccc7be3fc4270ae96b58c80841560);
+            
+
+            circle_marker_68964cf4318a41c99e8081fbfaeccce1.bindPopup(popup_2c52551efb2f4f508eb967e726405c13);
+
+            
+        
+    
+            var circle_marker_ba5c001bd4a74af5bfa02ad80236f7f9 = L.circleMarker(
+                [43.1498985,-117.4710007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_c05cf4dabfd347ab86573636558d9cc9 = L.popup({maxWidth: '300'});
+
+            
+                var html_d2ba6ae59aac498e971ab7ab0980ed72 = $('<div id="html_d2ba6ae59aac498e971ab7ab0980ed72" style="width: 100.0%; height: 100.0%;">Name: Jordan Craters Location: US-Oregon Status: Radiocarbon Type: Volcanic field Elevation: 1473.0 m</div>')[0];
+                popup_c05cf4dabfd347ab86573636558d9cc9.setContent(html_d2ba6ae59aac498e971ab7ab0980ed72);
+            
+
+            circle_marker_ba5c001bd4a74af5bfa02ad80236f7f9.bindPopup(popup_c05cf4dabfd347ab86573636558d9cc9);
+
+            
+        
+    
+            var circle_marker_1b286f946ba34fb096bb4462f196bd2c = L.circleMarker(
+                [42.9999008,-117.8010025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_4b7a4dfdfc284cd1a132d4bd7eede067 = L.popup({maxWidth: '300'});
+
+            
+                var html_4c6910879d964dd8a328f2bc0cb4b6e1 = $('<div id="html_4c6910879d964dd8a328f2bc0cb4b6e1" style="width: 100.0%; height: 100.0%;">Name: Saddle Butte Location: US-Oregon Status: Holocene? Type: Volcanic field Elevation: 1700.0 m</div>')[0];
+                popup_4b7a4dfdfc284cd1a132d4bd7eede067.setContent(html_4c6910879d964dd8a328f2bc0cb4b6e1);
+            
+
+            circle_marker_1b286f946ba34fb096bb4462f196bd2c.bindPopup(popup_4b7a4dfdfc284cd1a132d4bd7eede067);
+
+            
+        
+    
+            var circle_marker_31bca5d2408545ca804ea1ec41090fe2 = L.circleMarker(
+                [43.419899,-113.5009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_f73ad7e9ce8f46cd831536a60892edab = L.popup({maxWidth: '300'});
+
+            
+                var html_628852a04b3d468e967e47e0645dc53b = $('<div id="html_628852a04b3d468e967e47e0645dc53b" style="width: 100.0%; height: 100.0%;">Name: Craters of the Moon Location: US-Idaho Status: Radiocarbon Type: Cinder cones Elevation: 2005.0 m</div>')[0];
+                popup_f73ad7e9ce8f46cd831536a60892edab.setContent(html_628852a04b3d468e967e47e0645dc53b);
+            
+
+            circle_marker_31bca5d2408545ca804ea1ec41090fe2.bindPopup(popup_f73ad7e9ce8f46cd831536a60892edab);
+
+            
+        
+    
+            var circle_marker_1a4fa207695b49fb9e1dbd644b3e8268 = L.circleMarker(
+                [43.4999008,-112.45099640000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_7eb3eb83d49943499035a105329bdf77 = L.popup({maxWidth: '300'});
+
+            
+                var html_7caf229f9deb427497ee697d4265f0ac = $('<div id="html_7caf229f9deb427497ee697d4265f0ac" style="width: 100.0%; height: 100.0%;">Name: Hell&#39;s Half Acre Location: US-Idaho Status: Radiocarbon Type: Shield volcano Elevation: 1631.0 m</div>')[0];
+                popup_7eb3eb83d49943499035a105329bdf77.setContent(html_7caf229f9deb427497ee697d4265f0ac);
+            
+
+            circle_marker_1a4fa207695b49fb9e1dbd644b3e8268.bindPopup(popup_7eb3eb83d49943499035a105329bdf77);
+
+            
+        
+    
+            var circle_marker_2220a123097c4e088395d7e2b7907ec3 = L.circleMarker(
+                [43.1799011,-114.35099790000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_6bb6caea11c94f70849e5e5ae8921f8c = L.popup({maxWidth: '300'});
+
+            
+                var html_bac914807cfb40cab81788612460d8d3 = $('<div id="html_bac914807cfb40cab81788612460d8d3" style="width: 100.0%; height: 100.0%;">Name: Shoshone Lava Field Location: US-Idaho Status: Holocene Type: Shield volcano Elevation: 1478.0 m</div>')[0];
+                popup_6bb6caea11c94f70849e5e5ae8921f8c.setContent(html_bac914807cfb40cab81788612460d8d3);
+            
+
+            circle_marker_2220a123097c4e088395d7e2b7907ec3.bindPopup(popup_6bb6caea11c94f70849e5e5ae8921f8c);
+
+            
+        
+    
+            var circle_marker_3f359132cc0644ecbf4be1794db8e5d9 = L.circleMarker(
+                [42.605899799999996,-117.5810013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_1f7264beefa542aa80e2d6f6cf4c1f22 = L.popup({maxWidth: '300'});
+
+            
+                var html_a2fb00c74e62450b9d00ee05eadd374f = $('<div id="html_a2fb00c74e62450b9d00ee05eadd374f" style="width: 100.0%; height: 100.0%;">Name: Jackies Butte Location: US-Oregon Status: Holocene? Type: Volcanic field Elevation: 1418.0 m</div>')[0];
+                popup_1f7264beefa542aa80e2d6f6cf4c1f22.setContent(html_a2fb00c74e62450b9d00ee05eadd374f);
+            
+
+            circle_marker_3f359132cc0644ecbf4be1794db8e5d9.bindPopup(popup_1f7264beefa542aa80e2d6f6cf4c1f22);
+
+            
+        
+    
+            var circle_marker_5dc3665451e9404690544e6af77cdc1f = L.circleMarker(
+                [41.579898799999995,-121.5709991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_9bba1520eb314695ab6e3a3aee2d6169 = L.popup({maxWidth: '300'});
+
+            
+                var html_3fe4401957ab4b0c9baeaf8a89a80285 = $('<div id="html_3fe4401957ab4b0c9baeaf8a89a80285" style="width: 100.0%; height: 100.0%;">Name: Medicine Lake Location: US-California Status: Radiocarbon Type: Shield volcano Elevation: 2412.0 m</div>')[0];
+                popup_9bba1520eb314695ab6e3a3aee2d6169.setContent(html_3fe4401957ab4b0c9baeaf8a89a80285);
+            
+
+            circle_marker_5dc3665451e9404690544e6af77cdc1f.bindPopup(popup_9bba1520eb314695ab6e3a3aee2d6169);
+
+            
+        
+    
+            var circle_marker_5c7af82e31244b0c9cf01ec8f0bcfcea = L.circleMarker(
+                [42.8799019,-113.2210007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_72b910cf80e449ec9be14b8a142ba6af = L.popup({maxWidth: '300'});
+
+            
+                var html_3da184908ec24ee6ab0c25a2cb497598 = $('<div id="html_3da184908ec24ee6ab0c25a2cb497598" style="width: 100.0%; height: 100.0%;">Name: Wapi Lava Field Location: US-Idaho Status: Radiocarbon Type: Shield volcano Elevation: 1604.0 m</div>')[0];
+                popup_72b910cf80e449ec9be14b8a142ba6af.setContent(html_3da184908ec24ee6ab0c25a2cb497598);
+            
+
+            circle_marker_5c7af82e31244b0c9cf01ec8f0bcfcea.bindPopup(popup_72b910cf80e449ec9be14b8a142ba6af);
+
+            
+        
+    
+            var circle_marker_ec90d9e9299c4ee9a4dacfa3c08983b1 = L.circleMarker(
+                [41.419899,-122.20099640000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_a4135c5904f04359b81b609b422a5797 = L.popup({maxWidth: '300'});
+
+            
+                var html_1bb4683483d4431d9958b5a46c536ba7 = $('<div id="html_1bb4683483d4431d9958b5a46c536ba7" style="width: 100.0%; height: 100.0%;">Name: Shasta Location: US-California Status: Historical Type: Stratovolcano Elevation: 4317.0 m</div>')[0];
+                popup_a4135c5904f04359b81b609b422a5797.setContent(html_1bb4683483d4431d9958b5a46c536ba7);
+            
+
+            circle_marker_ec90d9e9299c4ee9a4dacfa3c08983b1.bindPopup(popup_a4135c5904f04359b81b609b422a5797);
+
+            
+        
+    
+            var circle_marker_c58c1e984f9b4c1faa4d58a0b434d359 = L.circleMarker(
+                [41.1778984,-121.4410019],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_e08606666c6a4c03af098ea8e36bfe67 = L.popup({maxWidth: '300'});
+
+            
+                var html_4ea534257d03435eb7928181c214783e = $('<div id="html_4ea534257d03435eb7928181c214783e" style="width: 100.0%; height: 100.0%;">Name: Brushy Butte Location: US-California Status: Holocene? Type: Shield volcano Elevation: 1174.0 m</div>')[0];
+                popup_e08606666c6a4c03af098ea8e36bfe67.setContent(html_4ea534257d03435eb7928181c214783e);
+            
+
+            circle_marker_c58c1e984f9b4c1faa4d58a0b434d359.bindPopup(popup_e08606666c6a4c03af098ea8e36bfe67);
+
+            
+        
+    
+            var circle_marker_f5f3f32390a14c86968ec6ac43994a2c = L.circleMarker(
+                [40.954898799999995,-121.3610001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_77132f7757fa4cc4b6909d92739c786a = L.popup({maxWidth: '300'});
+
+            
+                var html_44062a0a3d124589ad34f4d55a124d42 = $('<div id="html_44062a0a3d124589ad34f4d55a124d42" style="width: 100.0%; height: 100.0%;">Name: Big Cave Location: US-California Status: Holocene? Type: Shield volcano Elevation: 1259.0 m</div>')[0];
+                popup_77132f7757fa4cc4b6909d92739c786a.setContent(html_44062a0a3d124589ad34f4d55a124d42);
+            
+
+            circle_marker_f5f3f32390a14c86968ec6ac43994a2c.bindPopup(popup_77132f7757fa4cc4b6909d92739c786a);
+
+            
+        
+    
+            var circle_marker_b64e5840dbc44d8f997b56397043bfbd = L.circleMarker(
+                [40.77989960000001,-121.60099790000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_d087f87b3f774d938a4f135d0966f0b6 = L.popup({maxWidth: '300'});
+
+            
+                var html_897a6dc8baee49ce81ee4e840b77db5b = $('<div id="html_897a6dc8baee49ce81ee4e840b77db5b" style="width: 100.0%; height: 100.0%;">Name: Twin Buttes Location: US-California Status: Holocene? Type: Cinder cones Elevation: 1631.0 m</div>')[0];
+                popup_d087f87b3f774d938a4f135d0966f0b6.setContent(html_897a6dc8baee49ce81ee4e840b77db5b);
+            
+
+            circle_marker_b64e5840dbc44d8f997b56397043bfbd.bindPopup(popup_d087f87b3f774d938a4f135d0966f0b6);
+
+            
+        
+    
+            var circle_marker_a6de0b79d02847ca9c799f77790e5690 = L.circleMarker(
+                [40.6799011,-121.5510025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_6f327bbcecd447ac8af8f2e0b578d40a = L.popup({maxWidth: '300'});
+
+            
+                var html_e4a223aac96a4cbeb0b93a17c390f6c8 = $('<div id="html_e4a223aac96a4cbeb0b93a17c390f6c8" style="width: 100.0%; height: 100.0%;">Name: Tumble Buttes Location: US-California Status: Holocene? Type: Cinder cones Elevation: 2191.0 m</div>')[0];
+                popup_6f327bbcecd447ac8af8f2e0b578d40a.setContent(html_e4a223aac96a4cbeb0b93a17c390f6c8);
+            
+
+            circle_marker_a6de0b79d02847ca9c799f77790e5690.bindPopup(popup_6f327bbcecd447ac8af8f2e0b578d40a);
+
+            
+        
+    
+            var circle_marker_403b91880af245a0aa250e65c6f7e06a = L.circleMarker(
+                [40.6299019,-120.8310013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_62ee68b75bcc457985df38b0a0927f8e = L.popup({maxWidth: '300'});
+
+            
+                var html_8a0ee6531fbe44478e7d42955771b9cd = $('<div id="html_8a0ee6531fbe44478e7d42955771b9cd" style="width: 100.0%; height: 100.0%;">Name: Eagle Lake Field Location: US-California Status: Holocene? Type: Fissure vents Elevation: 1652.0 m</div>')[0];
+                popup_62ee68b75bcc457985df38b0a0927f8e.setContent(html_8a0ee6531fbe44478e7d42955771b9cd);
+            
+
+            circle_marker_403b91880af245a0aa250e65c6f7e06a.bindPopup(popup_62ee68b75bcc457985df38b0a0927f8e);
+
+            
+        
+    
+            var circle_marker_1172037c04c44e3e87bb21cfa9dee6d1 = L.circleMarker(
+                [40.491901399999996,-121.5009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_885092d443ae4df2b49a3c532402ae87 = L.popup({maxWidth: '300'});
+
+            
+                var html_1be4dab5ebff4511b639c9a2b54440da = $('<div id="html_1be4dab5ebff4511b639c9a2b54440da" style="width: 100.0%; height: 100.0%;">Name: Lassen Volc Center Location: US-California Status: Historical Type: Stratovolcano Elevation: 3187.0 m</div>')[0];
+                popup_885092d443ae4df2b49a3c532402ae87.setContent(html_1be4dab5ebff4511b639c9a2b54440da);
+            
+
+            circle_marker_1172037c04c44e3e87bb21cfa9dee6d1.bindPopup(popup_885092d443ae4df2b49a3c532402ae87);
+
+            
+        
+    
+            var circle_marker_280cb4233ae147068bcdcfc147887ed0 = L.circleMarker(
+                [38.9698982,-122.7710037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_4e90afe502e7463fbfda908cd2dfb204 = L.popup({maxWidth: '300'});
+
+            
+                var html_afc44cadfa7a42d595693a0a437f5db5 = $('<div id="html_afc44cadfa7a42d595693a0a437f5db5" style="width: 100.0%; height: 100.0%;">Name: Clear Lake Location: US-California Status: Holocene Type: Volcanic field Elevation: 1439.0 m</div>')[0];
+                popup_4e90afe502e7463fbfda908cd2dfb204.setContent(html_afc44cadfa7a42d595693a0a437f5db5);
+            
+
+            circle_marker_280cb4233ae147068bcdcfc147887ed0.bindPopup(popup_4e90afe502e7463fbfda908cd2dfb204);
+
+            
+        
+    
+            var circle_marker_2445449bd4054d168e7501082755ea4c = L.circleMarker(
+                [39.3749008,-119.7210007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_e09e88a4962848b7ac476c181f91d048 = L.popup({maxWidth: '300'});
+
+            
+                var html_9ac73a58c3984a4c83c11c1cf8b2bcbf = $('<div id="html_9ac73a58c3984a4c83c11c1cf8b2bcbf" style="width: 100.0%; height: 100.0%;">Name: Steamboat Springs Location: US-Nevada Status: Pleistocene-Fumarolic Type: Lava domes Elevation: 1415.0 m</div>')[0];
+                popup_e09e88a4962848b7ac476c181f91d048.setContent(html_9ac73a58c3984a4c83c11c1cf8b2bcbf);
+            
+
+            circle_marker_2445449bd4054d168e7501082755ea4c.bindPopup(popup_e09e88a4962848b7ac476c181f91d048);
+
+            
+        
+    
+            var circle_marker_e92bd4a2c6444891b21a5e3731a213fb = L.circleMarker(
+                [39.6500015,-107.03099820000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_c15c9128ce8e45a394ac2205b0711186 = L.popup({maxWidth: '300'});
+
+            
+                var html_1d2e65dd00624c088dcfef9fcee5eb9c = $('<div id="html_1d2e65dd00624c088dcfef9fcee5eb9c" style="width: 100.0%; height: 100.0%;">Name: Dotsero Location: US-Colorado Status: Radiocarbon Type: Maar Elevation: 2230.0 m</div>')[0];
+                popup_c15c9128ce8e45a394ac2205b0711186.setContent(html_1d2e65dd00624c088dcfef9fcee5eb9c);
+            
+
+            circle_marker_e92bd4a2c6444891b21a5e3731a213fb.bindPopup(popup_c15c9128ce8e45a394ac2205b0711186);
+
+            
+        
+    
+            var circle_marker_6b041098d71c452c858874312bb06161 = L.circleMarker(
+                [37.9999008,-119.03099820000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_34385d2557bb4c23be3a8c3a7a585920 = L.popup({maxWidth: '300'});
+
+            
+                var html_8e14dd1bdda04531bc486f0c70d266cb = $('<div id="html_8e14dd1bdda04531bc486f0c70d266cb" style="width: 100.0%; height: 100.0%;">Name: Mono Lake Volc Field Location: US-California Status: Tephrochronology Type: Cinder cones Elevation: 2121.0 m</div>')[0];
+                popup_34385d2557bb4c23be3a8c3a7a585920.setContent(html_8e14dd1bdda04531bc486f0c70d266cb);
+            
+
+            circle_marker_6b041098d71c452c858874312bb06161.bindPopup(popup_34385d2557bb4c23be3a8c3a7a585920);
+
+            
+        
+    
+            var circle_marker_a0d4280e69384983955e95f99cc1832b = L.circleMarker(
+                [38.970001200000006,-112.5009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_28a4a4b4de774bd1b64d4ad9e247f416 = L.popup({maxWidth: '300'});
+
+            
+                var html_ee1259612d904e299ff536082da41bde = $('<div id="html_ee1259612d904e299ff536082da41bde" style="width: 100.0%; height: 100.0%;">Name: Black Rock Desert Location: US-Utah Status: Radiocarbon Type: Volcanic field Elevation: 1800.0 m</div>')[0];
+                popup_28a4a4b4de774bd1b64d4ad9e247f416.setContent(html_ee1259612d904e299ff536082da41bde);
+            
+
+            circle_marker_a0d4280e69384983955e95f99cc1832b.bindPopup(popup_28a4a4b4de774bd1b64d4ad9e247f416);
+
+            
+        
+    
+            var circle_marker_758b9134dc8f4a85a4b3675ed186c9ca = L.circleMarker(
+                [37.8799019,-119.0009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_28fc6b82aa2c4098be3d89fbced433e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_da76cf86e4754f68aad11d3c48c30702 = $('<div id="html_da76cf86e4754f68aad11d3c48c30702" style="width: 100.0%; height: 100.0%;">Name: Mono Craters Location: US-California Status: Radiocarbon Type: Lava domes Elevation: 2796.0 m</div>')[0];
+                popup_28fc6b82aa2c4098be3d89fbced433e9.setContent(html_da76cf86e4754f68aad11d3c48c30702);
+            
+
+            circle_marker_758b9134dc8f4a85a4b3675ed186c9ca.bindPopup(popup_28fc6b82aa2c4098be3d89fbced433e9);
+
+            
+        
+    
+            var circle_marker_e84ee5dced1249a0a54725cecefdffe8 = L.circleMarker(
+                [37.6918983,-119.0210037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_a4799a9a380b43f09d88148af51889d5 = L.popup({maxWidth: '300'});
+
+            
+                var html_258dbdc7e3494e02a7195c401cfe2eb8 = $('<div id="html_258dbdc7e3494e02a7195c401cfe2eb8" style="width: 100.0%; height: 100.0%;">Name: Inyo Craters Location: US-California Status: Radiocarbon Type: Lava domes Elevation: 2629.0 m</div>')[0];
+                popup_a4799a9a380b43f09d88148af51889d5.setContent(html_258dbdc7e3494e02a7195c401cfe2eb8);
+            
+
+            circle_marker_e84ee5dced1249a0a54725cecefdffe8.bindPopup(popup_a4799a9a380b43f09d88148af51889d5);
+
+            
+        
+    
+            var circle_marker_baa33db0dd3b45adaddffef4a7d3b061 = L.circleMarker(
+                [37.6999016,-118.8710022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_e635045db9ad460c9507b6063a4c5323 = L.popup({maxWidth: '300'});
+
+            
+                var html_8d23c5a896f84fea8378f542b7f9e744 = $('<div id="html_8d23c5a896f84fea8378f542b7f9e744" style="width: 100.0%; height: 100.0%;">Name: Long Valley Location: US-California Status: Pleistocene-Fumarolic Type: Caldera Elevation: 3390.0 m</div>')[0];
+                popup_e635045db9ad460c9507b6063a4c5323.setContent(html_8d23c5a896f84fea8378f542b7f9e744);
+            
+
+            circle_marker_baa33db0dd3b45adaddffef4a7d3b061.bindPopup(popup_e635045db9ad460c9507b6063a4c5323);
+
+            
+        
+    
+            var circle_marker_fa52850a5ce342b6821d5d1d0cfb249a = L.circleMarker(
+                [37.579898799999995,-119.0510025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_efa9984ed2bf4e27bed8735b103680cd = L.popup({maxWidth: '300'});
+
+            
+                var html_95205029300f4d96a02d79240f464964 = $('<div id="html_95205029300f4d96a02d79240f464964" style="width: 100.0%; height: 100.0%;">Name: Red Cones Location: US-California Status: Radiocarbon Type: Cinder cones Elevation: 2748.0 m</div>')[0];
+                popup_efa9984ed2bf4e27bed8735b103680cd.setContent(html_95205029300f4d96a02d79240f464964);
+            
+
+            circle_marker_fa52850a5ce342b6821d5d1d0cfb249a.bindPopup(popup_efa9984ed2bf4e27bed8735b103680cd);
+
+            
+        
+    
+            var circle_marker_e00e6ec5652e4e16be31cef210f4b607 = L.circleMarker(
+                [37.0199013,-117.45099640000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_ab90b8a6600a4d599b99c274a0528e0b = L.popup({maxWidth: '300'});
+
+            
+                var html_e8ec874f16874bada75763e935de0b4f = $('<div id="html_e8ec874f16874bada75763e935de0b4f" style="width: 100.0%; height: 100.0%;">Name: Ubehebe Craters Location: US-California Status: Anthropology Type: Maars Elevation: 752.0 m</div>')[0];
+                popup_ab90b8a6600a4d599b99c274a0528e0b.setContent(html_e8ec874f16874bada75763e935de0b4f);
+            
+
+            circle_marker_e00e6ec5652e4e16be31cef210f4b607.bindPopup(popup_ab90b8a6600a4d599b99c274a0528e0b);
+
+            
+        
+    
+            var circle_marker_e5bb5e2a526b42a4b4dc296006477344 = L.circleMarker(
+                [37.5800018,-112.6709976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_3963f12b3bb34f7696278ab440c3fdc0 = L.popup({maxWidth: '300'});
+
+            
+                var html_00064d3f38e749cebcfd272fd023cfaf = $('<div id="html_00064d3f38e749cebcfd272fd023cfaf" style="width: 100.0%; height: 100.0%;">Name: Markagunt Plateau Location: US-Utah Status: Dendrochronology Type: Volcanic field Elevation: 2840.0 m</div>')[0];
+                popup_3963f12b3bb34f7696278ab440c3fdc0.setContent(html_00064d3f38e749cebcfd272fd023cfaf);
+            
+
+            circle_marker_e5bb5e2a526b42a4b4dc296006477344.bindPopup(popup_3963f12b3bb34f7696278ab440c3fdc0);
+
+            
+        
+    
+            var circle_marker_bc46d90254484baa86cb3848303394d8 = L.circleMarker(
+                [37.257,-113.6210022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_ad043aca6d6f4b5d864cd731e02612fb = L.popup({maxWidth: '300'});
+
+            
+                var html_6c151c79fb1d4c7cb6472f644cb41f91 = $('<div id="html_6c151c79fb1d4c7cb6472f644cb41f91" style="width: 100.0%; height: 100.0%;">Name: Santa Clara Location: US-Utah Status: Holocene? Type: Volcanic field Elevation: 1465.0 m</div>')[0];
+                popup_ad043aca6d6f4b5d864cd731e02612fb.setContent(html_6c151c79fb1d4c7cb6472f644cb41f91);
+            
+
+            circle_marker_bc46d90254484baa86cb3848303394d8.bindPopup(popup_ad043aca6d6f4b5d864cd731e02612fb);
+
+            
+        
+    
+            var circle_marker_5600800f03e945a0824ef39655a07215 = L.circleMarker(
+                [37.32799910000001,-112.40100100000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_41f57354e29c4d8599fe0215d69a44c8 = L.popup({maxWidth: '300'});
+
+            
+                var html_ea0cdb27e2604acbb225da129598adeb = $('<div id="html_ea0cdb27e2604acbb225da129598adeb" style="width: 100.0%; height: 100.0%;">Name: Bald Knoll Location: US-Utah Status: Holocene Type: Cinder cones Elevation: 2135.0 m</div>')[0];
+                popup_41f57354e29c4d8599fe0215d69a44c8.setContent(html_ea0cdb27e2604acbb225da129598adeb);
+            
+
+            circle_marker_5600800f03e945a0824ef39655a07215.bindPopup(popup_41f57354e29c4d8599fe0215d69a44c8);
+
+            
+        
+    
+            var circle_marker_6183aaf7fcba417790a2d3a22d4df332 = L.circleMarker(
+                [36.3578987,-118.3209991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_b5c45c7d352f40bba4286f4360f3f6b1 = L.popup({maxWidth: '300'});
+
+            
+                var html_bc312c98ffd946e795461320489e9139 = $('<div id="html_bc312c98ffd946e795461320489e9139" style="width: 100.0%; height: 100.0%;">Name: Golden Trout Creek Location: US-California Status: Tephrochronology Type: Volcanic field Elevation: 2886.0 m</div>')[0];
+                popup_b5c45c7d352f40bba4286f4360f3f6b1.setContent(html_bc312c98ffd946e795461320489e9139);
+            
+
+            circle_marker_6183aaf7fcba417790a2d3a22d4df332.bindPopup(popup_b5c45c7d352f40bba4286f4360f3f6b1);
+
+            
+        
+    
+            var circle_marker_31bbfd832b0c43b49d39904b9561b2ea = L.circleMarker(
+                [36.02989960000001,-117.8209991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_e6d2afb0df0b46e38e5f97ccc31a6183 = L.popup({maxWidth: '300'});
+
+            
+                var html_0c24a3c1ba6d495db0082903d43a78fa = $('<div id="html_0c24a3c1ba6d495db0082903d43a78fa" style="width: 100.0%; height: 100.0%;">Name: Coso Volc Field Location: US-California Status: Holocene? Type: Lava domes Elevation: 2400.0 m</div>')[0];
+                popup_e6d2afb0df0b46e38e5f97ccc31a6183.setContent(html_0c24a3c1ba6d495db0082903d43a78fa);
+            
+
+            circle_marker_31bbfd832b0c43b49d39904b9561b2ea.bindPopup(popup_e6d2afb0df0b46e38e5f97ccc31a6183);
+
+            
+        
+    
+            var circle_marker_9dadd51963b9417c92b2481123e0ebbe = L.circleMarker(
+                [36.3800011,-113.1309967],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_410410fd79654ed7ba86f50a4985e9ed = L.popup({maxWidth: '300'});
+
+            
+                var html_46a2177d473845dc9eae3c6df03621e8 = $('<div id="html_46a2177d473845dc9eae3c6df03621e8" style="width: 100.0%; height: 100.0%;">Name: Uinkaret Field Location: US-Arizona Status: Anthropology Type: Volcanic field Elevation: 1555.0 m</div>')[0];
+                popup_410410fd79654ed7ba86f50a4985e9ed.setContent(html_46a2177d473845dc9eae3c6df03621e8);
+            
+
+            circle_marker_9dadd51963b9417c92b2481123e0ebbe.bindPopup(popup_410410fd79654ed7ba86f50a4985e9ed);
+
+            
+        
+    
+            var circle_marker_b6957b9d594541eeb6d755215e1751db = L.circleMarker(
+                [34.75,-116.6210022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_f4b49cabfdc24f368c811abfce8a9ab4 = L.popup({maxWidth: '300'});
+
+            
+                var html_37f51e636afa4aa69f6fef542b0c42e1 = $('<div id="html_37f51e636afa4aa69f6fef542b0c42e1" style="width: 100.0%; height: 100.0%;">Name: Lavic Lake Location: US-California Status: Holocene? Type: Volcanic field Elevation: 1495.0 m</div>')[0];
+                popup_f4b49cabfdc24f368c811abfce8a9ab4.setContent(html_37f51e636afa4aa69f6fef542b0c42e1);
+            
+
+            circle_marker_b6957b9d594541eeb6d755215e1751db.bindPopup(popup_f4b49cabfdc24f368c811abfce8a9ab4);
+
+            
+        
+    
+            var circle_marker_b0652ec83f0c430db0b82ecac9ce6647 = L.circleMarker(
+                [35.8699989,-106.5709991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_d920b2cdb2194188a7f6f72a63e1ab50 = L.popup({maxWidth: '300'});
+
+            
+                var html_71dee0d181de455e8a9082cd28ad9e06 = $('<div id="html_71dee0d181de455e8a9082cd28ad9e06" style="width: 100.0%; height: 100.0%;">Name: Valles Caldera Location: US-New Mexico Status: Pleistocene-Fumarolic Type: Caldera Elevation: 3430.0 m</div>')[0];
+                popup_d920b2cdb2194188a7f6f72a63e1ab50.setContent(html_71dee0d181de455e8a9082cd28ad9e06);
+            
+
+            circle_marker_b0652ec83f0c430db0b82ecac9ce6647.bindPopup(popup_d920b2cdb2194188a7f6f72a63e1ab50);
+
+            
+        
+    
+            var circle_marker_2aed5ab698014e309255a632bc39c636 = L.circleMarker(
+                [35.3699989,-111.5009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_509b341c1dd9436fa18c500db1aeb9bc = L.popup({maxWidth: '300'});
+
+            
+                var html_6700cb6d92d34daea80e0ae954c5a986 = $('<div id="html_6700cb6d92d34daea80e0ae954c5a986" style="width: 100.0%; height: 100.0%;">Name: Sunset Crater Location: US-Arizona Status: Dendrochronology Type: Cinder cone Elevation: 2447.0 m</div>')[0];
+                popup_509b341c1dd9436fa18c500db1aeb9bc.setContent(html_6700cb6d92d34daea80e0ae954c5a986);
+            
+
+            circle_marker_2aed5ab698014e309255a632bc39c636.bindPopup(popup_509b341c1dd9436fa18c500db1aeb9bc);
+
+            
+        
+    
+            var circle_marker_2e888e9cac434109bd914bb0bd76b004 = L.circleMarker(
+                [34.5499992,-115.78099820000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_5aa441181c7b4c9f9b738c3c2fa8837c = L.popup({maxWidth: '300'});
+
+            
+                var html_b51f92f9523b402a90b46e77427091f4 = $('<div id="html_b51f92f9523b402a90b46e77427091f4" style="width: 100.0%; height: 100.0%;">Name: Amboy Location: US-California Status: Holocene Type: Cinder cone Elevation: 288.0 m</div>')[0];
+                popup_5aa441181c7b4c9f9b738c3c2fa8837c.setContent(html_b51f92f9523b402a90b46e77427091f4);
+            
+
+            circle_marker_2e888e9cac434109bd914bb0bd76b004.bindPopup(popup_5aa441181c7b4c9f9b738c3c2fa8837c);
+
+            
+        
+    
+            var circle_marker_3c0abc85fcb848918272a43126f54ead = L.circleMarker(
+                [34.7999992,-108.0009995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_b8052f06aa934901a498c905ca73bfe1 = L.popup({maxWidth: '300'});
+
+            
+                var html_7c1ac03d800f478ab15b84dd30aaf31b = $('<div id="html_7c1ac03d800f478ab15b84dd30aaf31b" style="width: 100.0%; height: 100.0%;">Name: Zuni-Bandera Location: US-New Mexico Status: Anthropology Type: Volcanic field Elevation: 2550.0 m</div>')[0];
+                popup_b8052f06aa934901a498c905ca73bfe1.setContent(html_7c1ac03d800f478ab15b84dd30aaf31b);
+            
+
+            circle_marker_3c0abc85fcb848918272a43126f54ead.bindPopup(popup_b8052f06aa934901a498c905ca73bfe1);
+
+            
+        
+    
+            var circle_marker_7fcb272aecb04c22bbc72678fb4a318c = L.circleMarker(
+                [33.7801018,-105.9309998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1c4f68b671c34a4280eb10ebbd742953);
+            
+    
+            var popup_4bdeec9f8b934aa2aa7f6121c787ed7b = L.popup({maxWidth: '300'});
+
+            
+                var html_d1ecb52df8254b66a49a95fa76eda429 = $('<div id="html_d1ecb52df8254b66a49a95fa76eda429" style="width: 100.0%; height: 100.0%;">Name: Carrizozo Location: US-New Mexico Status: Holocene Type: Cinder cone Elevation: 1731.0 m</div>')[0];
+                popup_4bdeec9f8b934aa2aa7f6121c787ed7b.setContent(html_d1ecb52df8254b66a49a95fa76eda429);
+            
+
+            circle_marker_7fcb272aecb04c22bbc72678fb4a318c.bindPopup(popup_4bdeec9f8b934aa2aa7f6121c787ed7b);
+
+            
+        
+</script>
